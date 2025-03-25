@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    font-style: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    height: 100vh;
+}
+
+.todoCon{
+    background: linear-gradient(to bottom right, whitesmoke, lightgrey) ;
+    width: 30%;
+    height: 70%;
+    border: solid 2px teal;
+    border-radius: 10px;
+}
+
+p{
+    margin-left: 5%;
+    color: orangered;
+    font-size: 14px;
+    font-style: italic;
+    /* background-color: Lightgreen; */
+    width: 92.5%;
+}
+
+
+input{
+    border:solid 1px teal;
+    border-radius: 5px;
+    outline: none;
+    margin: 2% 4.5% 0.5% 3.5%;
+    height: 10%;
+    padding-left: 3%;
+    font-size: large;
+    width: 90%;
+    background-color: whitesmoke;
+}
+
+#addTodo{
+    background-color: green;
+    border: solid 1px;
+    margin-left: 66.5%;
+    height: 7%;
+    width: 30%;
+    border-radius: 5px;
+    color:whitesmoke;
+}
+
+ul{
+    margin-left: 3.5%;
+    margin-right: 5%;
+    height: fit-content;
+    margin-top: 10px;
+
+
+    botton{
+        padding: 0 10px;
+        margin-left: 5px;
+        border-radius: 5px;
+        border: none;
+        color: white;
+    }
+}
+
+ul li{
+    color: teal;
+    cursor: pointer;
+    margin-top: 1%;
+    height: fit-content;
+
+    div button{
+        height: 100%;
+        padding: 0 15px 0 15px;
+    }
+}
+
+small{
+    width: 100%;
+    color: teal;
+    text-align: center;
+    font-weight: 600;
+    margin-left: 5%;
+}
